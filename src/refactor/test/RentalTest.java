@@ -27,4 +27,14 @@ public class RentalTest {
 	public void getMovie() {
 	        assertEquals(movie, rental.getMovie());
 	}
+	
+	@Test
+	public void getCharge() {
+		assertEquals(4.5, rental.getCharge());
+	}
+	
+	@Test
+	public void getFrequentRenterPoints() {
+		assertEquals(1, rental.getFrequentRenterPoints());
+	}
 }
